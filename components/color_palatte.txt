@@ -1,0 +1,21 @@
+bg-[#1F1E1B]
+text- ffe5fa
+shadows-f570f5
+
+gradients-hovergradients: 
+       font-bold text-transparent bg-clip-text
+       from-[#f570f5] to-[#f570f5] via-[#ffe5fa] bg-gradient-to-l
+        
+        hover:text-transparent hover:bg-clip-text 
+        hover:from-[#561ab1] hover:to-[#561ab1]
+        hover:via-[#fb8463] hover:bg-gradient-to-l 
+        ease-in-out duration-300
+
+headers:
+<h1 className="text-center p-10 text-7xl font-extrabold
+          text-transparent bg-clip-text
+          from-[#f570f5] to-[#f570f5] via-[#ffe5fa]
+          bg-gradient-to-l
+          ">
+            About
+      </h1>
