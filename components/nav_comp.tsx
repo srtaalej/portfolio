@@ -101,7 +101,7 @@ export default function Navbar(props: Props) {
                 </ul>
           </div>
                 <div className='px-10 py-40'>
-                  <p className= 'text-l uppercase tracking-widest flex w-full items-center justify-between font-light text-lg text-transparent bg-clip-text from-[#fb8463] to-[#f570f5] bg-gradient-to-t'>Let's Connect</p>
+                  <p className= 'text-l uppercase tracking-widest flex w-full items-center justify-between font-light text-lg text-transparent bg-clip-text from-[#fb8463] to-[#f570f5] bg-gradient-to-t'>Let&apos;s Connect</p>
                   {/* parent div*/} 
                   <div className= 'flex item-center justify-between my-4 w-full sm:w-[80%]'>
                     <div className='rounded-full shadow-lg shadow-[#f570f5] p-3 cursor-pointer hover:scale-185 ease-in duration 500'> 

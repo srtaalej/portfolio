@@ -35,21 +35,21 @@ const AboutCard = ({
     >
         <p className='items-center m-10 text-2xl font-light tracking-tighter text-center '>
             Welcome to my portfolio website!
-            My name is Maria and I'm a 
+            My name is Maria and I&apos;m a 
             computer science student at CUNY Hunter College and a soon-to-be Software Engineer. 
-            I've been programming for a year now, 
+            I&apos;ve been programming for a year now, 
             with my primary languages being C++ and Python. 
             With extensive experience in both languages, 
             I have been able to tackle a wide range of 
             projects and deliver high-quality, efficient code. 
             <br></br> 
-            I've become particularly interested in machine learning and AI because, 
-            let's face it, robots are going to take over the world 
+            I&apos;ve become particularly interested in machine learning and AI because, 
+            let&apos;s face it, robots are going to take over the world 
             and I want to be on their good side. 
-            So, if you're looking for a developer who can not only code, 
-            but also make you laugh, then you've come to the right place. 
-            Let's get started on this journey together, and who knows, 
-            maybe I'll even teach my computer to tell jokes too...
+            So, if you&apos;re looking for a developer who can not only code, 
+            but also make you laugh, then you&apos;ve come to the right place. 
+            Let&apos;s get started on this journey together, and who knows, 
+            maybe I&apos;ll even teach my computer to tell jokes too...
         </p>
      
     </article>
