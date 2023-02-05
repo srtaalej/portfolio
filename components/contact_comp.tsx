@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Typer} from 'react-easy-animations';
+import { Typewriter } from 'react-simple-typewriter'
 import {FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa';
 import Link from 'next/link';
 import { useForm, SubmitHandler } from 'react-hook-form';
@@ -98,16 +98,43 @@ export default function Contact(props: Props)  {
         </h1>
       <div className='w-[380px] md:w-[500px] h-[100px] text-center 
         lg:text-start'>
-        <Typer className='md:w-fit pt-5 lg:pt-0 text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#f570f5]
-      to-[#fb8463]'
-          dataText={[
+          <span className='md:w-fit pt-5 lg:pt-0 text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#f570f5]
+      to-[#fb8463]'>
+        <Typewriter 
+          words={[
             'Don’t be shy, say hi!',
-            '(Unless you’re a telemarketer, then please don’t)',
-          ]}
-          
-      />
+            '(Unless you’re a telemarketer, then please don’t)']}
+          loop={true}
+          typeSpeed={70}
+          deleteSpeed={100}
+          delaySpeed={1000}
+            />
+        </span>
       </div>
-      
+{/*       
+      useTypewriter({
+    words: [
+      'Hi, I am Filip',
+      'I <Deploy />',
+      'Hi, I am Filip',
+      'I <Design />',
+      'Hi, I am Filip',
+      'I code.',
+    ],
+    loop: true,
+    delaySpeed: 2000,
+    words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={70}
+            delaySpeed={1000}
+            onLoopDone={handleDone}
+            onType={handleType}
+  });
+ */}
+
       <div className= 'items-center justify-between hidden space-x-5 lg:flex w-max'>
         <div className='rounded-full shadow-lg shadow-[#f570f5] p-3 ease-in duration-500'> 
           <Link href='https://www.linkedin.com/in/mariamerk/'>

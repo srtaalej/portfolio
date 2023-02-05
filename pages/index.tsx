@@ -9,10 +9,7 @@ import Footer from '../components/footer'
 type Props = {}
 
 export default function index({}: Props) {
-  const[nav, setNav] = useState(false);
-  const handleNav= ()=>{
-    setNav(!nav) 
-  }
+  
   return (
     <article className='h-screen justify-between items-center flex flex-col bg-[#1F1E1B]'> 
    {/* height of screen */}
