@@ -28,7 +28,7 @@ type Props = {};
 export default function SkillsSection({}: Props) {
   return (
     
-    <div className='h-full'>
+    <div className='h-full mb-40'>
      
      <h1 className="text-center p-10 text-6xl md:text-7xl font-extrabold
           text-transparent bg-clip-text
@@ -50,7 +50,7 @@ export default function SkillsSection({}: Props) {
         duration: 1.5,
       }}
     > */}
-    <div className='grid items-center justify-center grid-flow-row grid-cols-2 grid-rows-6 px-5 mb-40 text-center ease-out md:grid-cols-3 md:grid-rows-4 md:px-20 max-h-fit gap-y-10 lg:gap-y-20 justify-items-center lg:grid-rows-3 lg:grid-cols-4'>
+    <div className='grid items-center justify-center grid-flow-row grid-cols-2 grid-rows-6 px-5 text-center ease-out md:grid-cols-3 md:grid-rows-4 md:px-20 max-h-fit gap-y-10 lg:gap-y-20 justify-items-center lg:grid-rows-3 lg:grid-cols-4'>
       <Skill
           icon={<SiCplusplus size='70' color='ffe5fa'/>}
           title={'C++'}

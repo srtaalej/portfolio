@@ -26,7 +26,7 @@ const MyTyperComponent = () => {
 
 export default function Main({}: Props) {
   return (
-    <div className='flex flex-col h-full pt-10 md:pt-20' >
+    <div className='flex flex-col h-full pt-10 mb-40 md:pt-20' >
       <MainCard/>
       <MyTyperComponent/>
     </div>

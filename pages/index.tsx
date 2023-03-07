@@ -5,16 +5,21 @@ import About from '../components/about_comp'
 import Skills from '../components/skills'
 import Projects from '../components/projects_comp'
 import Footer from '../components/footer'
+import Contact from '../components/contact_comp'
 
 type Props = {}
 
 export default function index({}: Props) {
   
   return (
-    <article className='h-screen justify-between items-center flex flex-col bg-[#1F1E1B]'> 
+    <article className='min-h-max w-screen justify-between items-center flex flex-col bg-[#1F1E1B]'> 
    {/* height of screen */}
       <Navbar/>
       <Main/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
       <Footer/>
     </article>
   )

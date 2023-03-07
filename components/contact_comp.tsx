@@ -86,7 +86,7 @@ export default function Contact(props: Props)  {
 
 
   return (
-    <div className='flex flex-col items-center justify-between w-screen p-20 ease-in-out h-max lg:flex-row'>
+    <div className='flex flex-col items-center justify-between w-screen h-full p-20 ease-in-out lg:flex-row'>
   
   <div className='flex flex-col items-start mx-5 h3 w-max'>
         <h1 className="w-[380px] md:w-[500px] text-center lg:text-start text-6xl md:text-7xl font-extrabold
