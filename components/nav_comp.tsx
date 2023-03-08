@@ -28,7 +28,7 @@ export default function Navbar(props: Props) {
 
 
     
-    <div className='flex flex-row w-full h-20 bg-transparent
+    <div className='flex flex-row w-screen h-20 bg-transparent
     z-50 justify-between items-center rounded-full shadow-lg shadow-[#f570f5]'>
      
      <div className='flex flex-wrap items-center justify-between w-full p-10'>

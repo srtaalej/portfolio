@@ -28,7 +28,7 @@ type Props = {};
 export default function SkillsSection({}: Props) {
   return (
     
-    <div className='h-full mb-40'>
+    <div className='w-screen h-full mb-40'>
      
      <h1 className="text-center p-10 text-6xl md:text-7xl font-extrabold
           text-transparent bg-clip-text
