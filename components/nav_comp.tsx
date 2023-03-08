@@ -72,13 +72,13 @@ export default function Navbar(props: Props) {
         <div className={!nav ? 'md:hidden fixed left-0 top-0 w-full h-full bg-white/60': ''}>  {/*black part */}
 
         {/* white part where actual menu is */}
-        <div className={!nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md-w-[45%] h-max bg-[#1F1E1B] p-10 ease-in duration 500': 'hidden top-0 p-10 ease-in duration 500'}>
+        <div className={!nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md-w-[45%] h-max bg-black p-10 ease-in duration 500': 'hidden top-0 p-10 ease-in duration 500'}>
           <div> {/* logo and x */}
             <div className= 'flex items-center justify-end w-full px-5'>
             {/* <Link href='/' className='text-3xl font-light uppercase text-transparent bg-clip-text p-5
             from-[#f570f5] to-[#f570f5] via-[#fb8463] bg-gradient-to-l'>
             </Link> */}
-                <div onClick={handleNav} className='rounded-full shadow-lg shadow-[#f570f5] bg-[#1F1E1B] p-3 cursor-pointer'>
+                <div onClick={handleNav} className='rounded-full shadow-md shadow-[#f570f5] hover:shadow-lg hover:shadow-[#f570f5] duration-300 bg-transparent p-3 cursor-pointer'>
                   <AiOutlineClose size={15} color='ffe5fa'/>
                 </div> 
             

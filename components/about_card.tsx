@@ -22,7 +22,7 @@ const AboutCard = ({
       className='flex flex-col items-center md:mx-20
         w-[330px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 
         h-full md:h-fit lg:h-[420px] xl:h-[370px] 
-        snap-center bg-[#1F1E1B]
+        snap-center bg-transparent
         shadow-lg shadow-[#f570f5] rounded-xl
         text-[#ffe5fa]
         hover:text-transparent hover:bg-clip-text 

@@ -21,7 +21,7 @@ export default function About({}: Props) {
     <div className="z-50 flex flex-col items-center justify-center w-screen h-full mb-40">
        {/* change the I ams to I'ms */}
    
-      <h1 className="text-center p-10 text-6xl md:text-7xl font-extrabold
+      <h1 className="text-center p-10 text-6xl lg:text-7xl font-extrabold
           text-transparent bg-clip-text
           from-[#f570f5] to-[#f570f5] via-[#ffe5fa]
           bg-gradient-to-l

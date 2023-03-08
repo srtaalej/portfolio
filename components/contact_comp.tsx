@@ -17,71 +17,6 @@ export default function Contact(props: Props)  {
     window.location.href = `mailto:mariaportfinbox@yahoo.com?subject=I checked out your website!&body=Hi, my name is ${formData.name}. ${formData.message} ${formData.email}`;
   };
 
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
-
-  // const [errors, setErrors] = useState({});
-
-  
-  // // Setting success or failure messages states
-  // const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  // const [showFailureMessage, setShowFailureMessage] = useState(false);
-
-  // // Validation check method
-  // const handleValidation = (): boolean => {
-  //   let tempErrors: { [key: string]: boolean; } = {};
-  //   let isValid: boolean = true;
-
-
-  //   if (name.length <= 0) {
-  //     tempErrors["name"] = true;
-  //     isValid = false;
-  //   }
-  //   if (email.indexOf("@") !== -1) {
-  //     tempErrors["email"] = true;
-  //     isValid = false;
-  //   }
-  //   if (message.length <= 0) {
-  //     tempErrors["message"] = true;
-  //     isValid = false;
-  //   }
-
-  //   setErrors({ ...tempErrors });
-  //   console.log("errors", errors);
-  //   return isValid;
-  // };
-
-  // const handleSubmit = async (e: any) => {
-  //   e.preventDefault();
-
-  //   // let isValid = handleValidation();
-  //   // if (!isValid) {
-  //   //   return;
-  //   // }
-  //     const res = await fetch("/api/sendgrid", {
-  //       body: JSON.stringify({
-  //         email: email,
-  //         name: name,
-  //         message: message,
-  //       }),
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       method: "POST",
-  //     });
-
-  //     const { error } = await res.json();
-  //     if (error) {
-  //       console.log(error);
-  //       setShowSuccessMessage(false);
-  //       setShowFailureMessage(true);
-  //       return;
-  //     }
-  //     setShowSuccessMessage(true);
-  //     setShowFailureMessage(false);
-  //   console.log(name, email, message);
-  // };
 
 
 
@@ -89,7 +24,7 @@ export default function Contact(props: Props)  {
     <div className='flex flex-col items-center justify-between w-screen h-full p-20 ease-in-out lg:flex-row'>
   
   <div className='flex flex-col items-start mx-5 h3 w-max'>
-        <h1 className="w-[380px] md:w-[500px] text-center lg:text-start text-6xl md:text-7xl font-extrabold
+        <h1 className="w-[380px] md:w-[500px] text-center lg:text-start text-6xl lg:text-7xl font-extrabold
           text-transparent bg-clip-text
           from-[#f570f5] to-[#f570f5] via-[#ffe5fa]
           bg-gradient-to-l
@@ -163,7 +98,7 @@ export default function Contact(props: Props)  {
         w-[360px] md:w-[550px] xl:w-[600px]
         h-[430px] 
         
-        bg-[#1F1E1B]
+        bg-transparent
         rounded-2xl shadow-lg shadow-[#f570f5]
         hover:shadow-[#f570f5] hover:shadow-2xl
         hover:opacity-200 duration-300'

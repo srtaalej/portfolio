@@ -9,7 +9,7 @@ export default function index({}: Props) {
 
 
   return (
-    <article className='min-h-max w-screen bg-[#1F1E1B]'> 
+    <article className='w-screen bg-black min-h-max'> 
    {/* height of screen */}
       <Navbar/>
       <Projects/>

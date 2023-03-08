@@ -1,14 +1,14 @@
 import React from 'react';
 import Proj from '../components/proj_card';
 
-import { SiNextdotjs, SiReact, SiCplusplus, SiTensorflow, } from 'react-icons/si';
+import { SiNextdotjs, SiReact, SiMongodb, SiExpress, SiNodedotjs } from 'react-icons/si';
 
 type Props = {};
 
 export default function Projects({}: Props) {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-full mb-40">
-        <h1 className="text-center py-10 text-6xl md:text-7xl font-extrabold
+        <h1 className="text-center py-10 text-6xl lg:text-7xl font-extrabold
         text-transparent bg-clip-text
         from-[#f570f5] to-[#f570f5] via-[#ffe5fa] bg-gradient-to-l
         ">Projects</h1>
@@ -23,11 +23,11 @@ export default function Projects({}: Props) {
                 <div className='pb-10 md:px-5'>
                 <Proj 
                 title='Portfolio Website'
-                dateStarted='December 2022 - Present'
+                dateStarted='December 2022'
                 points={[
                 'Modern, animated components styled in Tailwind CSS',
                 'Next.js for optimized Server Side rendering',
-                'TypeScript React for increased developer experience',
+                'TypeScript for increased developer experience',
                 ]}
                 skillsEng={['Next.js', 'React.js']}
                 icon={[
@@ -39,15 +39,16 @@ export default function Projects({}: Props) {
 
                 <div className='md:px-5 '>
                 <Proj 
-                title='Linear Regression Model'
-                dateStarted='Coming Soon'
+                title='Opportunity Tracker'
+                dateStarted='March 2023'
                 points={[
-                'Tensorflow, Armadillo, and Eigen to perform the linear algebra and machine learning operations.',
+                'A web app that allows students to find, apply, and track opportunities.', 'Node.js for backend development', 'Express.js for routing', 'MongoDB for database'
                 ]}
-                skillsEng={['C++', 'Tensorflow']}
+                skillsEng={['Node.js', 'Express.js', 'MongoDB']}
                 icon={[
-                <SiCplusplus key={1} size={40} color='f89de8'/>,
-                <SiTensorflow key={2} size={40} color='f89de8'/>,
+                <SiNodedotjs key={1} size={40} color='f89de8'/>,
+                <SiExpress key={2} size={40} color='f89de8'/>,
+                <SiMongodb key={3} size={40} color='f89de8'/>,
                 ]}
                 />
                 </div>
@@ -55,21 +56,6 @@ export default function Projects({}: Props) {
 
                 
             </div>
-        {/* <div className="flex flex-col items-center justify-center">
-            <div className='max-w-md overflow-hidden rounded shadow-lg'>
-                <MdOutlineFolderShared size={100} className='items-center p-5'/>
-                <h1 className="text-center p-2 text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#330677] to-[#f570f5]">Portfolio Website</h1>
-                <p className='items-center mx-40 tracking-tighter text-2xl font-light text-[#919191] text-center]'>This website is built with Next.js and TailwindCSS</p>
-            </div>
-
-title,
-  skillsEng,
-  skillsUsed,
-  dateStarted,
-  points,
-
-
-        </div> */}
     </div>
     );
   }

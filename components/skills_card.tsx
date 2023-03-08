@@ -21,7 +21,7 @@ export default function Skill({ icon, title }: CardProps) {
 
       font-bold text-transparent bg-clip-text
       from-[#f570f5] to-[#f570f5] via-[#ffe5fa] bg-gradient-to-l
-      bg-[#1F1E1B] md:text-lg
+      bg-black md:text-lg
 
       hover:text-transparent hover:bg-clip-text 
       hover:from-[#561ab1] hover:to-[#561ab1]
