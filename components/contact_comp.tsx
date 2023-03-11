@@ -152,7 +152,7 @@ export default function Contact(props: Props)  {
               <button type='submit' 
               // disabled={!handleValidation}
               className='w-1/3 m-10 ease-in-out duration-300
-              text-lg font-semibold text-[#ffe5fa] 
+              text-lg font-light text-[#ffe5fa] 
               rounded-md outline-none bg-[#f570f5] active:bg-[#fd50fd] 
               focus:ring-2 focus:ring-[#f570f5]
               disabled:bg-opacity-50 disabled:cursors-not-allowed

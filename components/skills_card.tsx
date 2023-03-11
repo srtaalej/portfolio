@@ -19,7 +19,8 @@ export default function Skill({ icon, title }: CardProps) {
       hover:shadow-[#f570f5] hover:shadow-2xl
       hover:opacity-200 duration-300 
 
-      font-bold text-transparent bg-clip-text
+      text-transparent
+      bg-clip-text
       from-[#f570f5] to-[#f570f5] via-[#ffe5fa] bg-gradient-to-l
       bg-black md:text-lg
 
@@ -28,7 +29,7 @@ export default function Skill({ icon, title }: CardProps) {
       hover:via-[#fb8463] hover:bg-gradient-to-l'
     >
       <div className='card-icon '>{icon}</div>
-      <h1 className='p-3 text-base font-bold md:text-lg w-fit'>{title}</h1>
+      <h1 className='p-3 text-sm font-light md:text-md w-fit'>{title}</h1>
     </motion.article>
   );
 }

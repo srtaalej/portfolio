@@ -39,8 +39,8 @@ export default function Navbar(props: Props) {
       </Link>
       
      
-      <ul className='space-x-5 hidden md:flex
-         uppercase text-sm font-lightbold text-transparent bg-clip-text 
+      <ul className='space-x-5 hidden md:flex uppercase
+        text-sm font-lightbold text-transparent bg-clip-text 
         from-[#f570f5] to-[#f570f5] via-[#fb8463] bg-gradient-to-l'>
         <Link href='/about'>
           About
@@ -84,7 +84,7 @@ export default function Navbar(props: Props) {
             
             </div>
           </div>
-          <div className= 'flex w-full items-center justify-between px-10 uppercase font-light text-lg text-transparent bg-clip-text from-[#fb8463] to-[#f570f5] bg-gradient-to-t'>
+          <div className= 'flex w-full uppercase items-center justify-between px-10 font-light text-lg text-transparent bg-clip-text from-[#fb8463] to-[#f570f5] bg-gradient-to-t'>
                 <ul>
                   <Link href='/about' >
                     <li className='py-6 text-l'>About Me</li>

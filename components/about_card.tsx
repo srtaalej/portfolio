@@ -24,7 +24,7 @@ const AboutCard = ({
         h-full md:h-fit lg:h-[420px] xl:h-[370px] 
         snap-center bg-transparent
         shadow-lg shadow-[#f570f5] rounded-xl
-        text-[#ffe5fa]
+        text-[#ffe5fa] 
         hover:text-transparent hover:bg-clip-text 
         hover:from-[#f570f5] hover:to-[#f570f5]
         hover:via-[#fb8463] hover:bg-gradient-to-l 
@@ -33,7 +33,7 @@ const AboutCard = ({
         hover:opacity-200 duration-300
         '
     >
-        <p className='items-center m-10 text-2xl font-light tracking-tighter text-center '>
+        <p className='items-center m-10 text-lg font-light tracking-tighter text-center '>
             Welcome to my portfolio website!
             My name is Maria and I&apos;m a 
             computer science student at CUNY Hunter College and a soon-to-be Software Engineer. 
@@ -43,7 +43,13 @@ const AboutCard = ({
             I have been able to tackle a wide range of 
             projects and deliver high-quality, efficient code. 
             <br></br> 
-            I&apos;ve become particularly interested in machine learning and AI because, 
+            When I&apos;m not busy coding up a storm, you&apos;ll find me advocating for diversity 
+            in tech and working to make the industry more accessible to underrepresented groups. 
+            I believe that everyone should have a chance to pursue their passion for technology, 
+            regardless of their background or identity.
+            <br></br>
+            As for my focus area, I&apos;ve become particularly interested 
+            in machine learning and AI because, 
             let&apos;s face it, robots are going to take over the world 
             and I want to be on their good side. 
             So, if you&apos;re looking for a developer who can not only code, 

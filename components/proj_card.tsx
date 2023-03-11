@@ -47,16 +47,17 @@ const Proj = ({
   return (
     <article
       className='flex flex-col items-center flex-shrink-0 justify-evenly 
-      font-bold text-transparent bg-clip-text
-      from-[#f570f5] to-[#f570f5] via-[#ffe5fa] bg-gradient-to-l
+      font-bold
+       
        w-[340px] md:w-[400px] xl:w-[450px] h-[550px]
-        snap-center bg-[#1F1E1B]
+        snap-center bg-black
 
         rounded-2xl shadow-lg shadow-[#f570f5]
-
+        text-transparent bg-clip-text
+        from-[#f570f5] to-[#f570f5] via-[#ffe5fa] bg-gradient-to-l
         hover:text-transparent hover:bg-clip-text 
-        hover:from-[#561ab1] hover:to-[#561ab1]
-        hover:via-[#fb8463] hover:bg-gradient-to-l 
+          hover:from-[#561ab1] hover:to-[#561ab1]
+          hover:via-[#fb8463] hover:bg-gradient-to-l
 
         hover:shadow-[#f570f5] hover:shadow-2xl
         hover:opacity-200 duration-300'
@@ -64,6 +65,7 @@ const Proj = ({
 
       
       <div className='px-[5%] items-center text-center'>
+
         <h1 className='mb-6 text-4xl font-bold tracking-tight'>
           {title}
         </h1>
@@ -73,10 +75,10 @@ const Proj = ({
         <div className='flex justify-center my-2 space-x-2'>
           {icon.map((skill) => skill)}
         </div>
-        <p className='py-5 text-gray-300 uppercase'>{dateStarted}</p>
+        <p className='py-5 text-gray-300 uppercase font-lightbold'>{dateStarted}</p>
         <ul
           id="skill's list"
-          className='ml-5 space-y-4 text-xs font-semibold list-disc text-start md:text-md'
+          className='ml-5 space-y-4 text-xs font-light text-start md:text-sm '
         >
           {points.map((point, index) => (
             <li key={`${index}`}>{point}</li>

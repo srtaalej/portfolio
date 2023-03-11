@@ -5,23 +5,6 @@ import {Typer} from 'react-easy-animations';
 
 
 type Props = {}
-const MyTyperComponent = () => {
-  
-  return (
-      <Typer className='text-center md:text-start text-2xl md:text-3xl 
-      text-transparent bg-clip-text bg-gradient-to-r 
-      from-[#f570f5] to-[#fb8463] 
-      mx-9 w-[300px] md:w-[480px] pt-10 md:pt-20'
-          dataText={[
-            'Hi! I am Maria,',
-            'a passionate developer,',
-            'turning ideas into reality,',
-            ' one line at a time',
-            
-          ]}
-      />
-  )
-}
 
 const MainCard = ({
 
@@ -47,9 +30,25 @@ const MainCard = ({
                 text-transparent bg-clip-text
                 from-[#f570f5] to-[#f570f5] via-[#ffe5fa]
                 bg-gradient-to-l">CS Student/ Developer</h1>
-                <GiOrbital size={500} color="f570f5"/>
+                <svg className="h-30 w-30" viewBox="0 0 512 512">
+                  <GiOrbital size={500} color="f570f5"/>
+                </svg>
+              
             </div>
-          <MyTyperComponent/>
+        
+            <Typer  className='text-center md:text-start 
+      text-2xl md:text-3xl font-light
+      text-transparent bg-clip-text bg-gradient-to-r 
+      from-[#f570f5] to-[#fb8463] 
+      mx-9 w-[300px] md:w-[480px] pt-10 md:pt-20'
+          dataText={[
+            'Hi! I am Maria,',
+            'a passionate developer,',
+            'turning ideas into reality,',
+            ' one line at a time',
+            
+          ]}
+      />
 
   </div>
    
