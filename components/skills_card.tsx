@@ -29,7 +29,7 @@ export default function Skill({ icon, title }: CardProps) {
       hover:via-[#fb8463] hover:bg-gradient-to-l'
     >
       <div className='card-icon '>{icon}</div>
-      <h1 className='p-3 text-sm font-light md:text-md w-fit'>{title}</h1>
+      <h1 className='p-3 text-xl font-light tracking-tighter w-fit'>{title}</h1>
     </motion.article>
   );
 }

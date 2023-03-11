@@ -33,7 +33,7 @@ const AboutCard = ({
         hover:opacity-200 duration-300
         '
     >
-        <p className='items-center m-10 text-lg font-light tracking-tighter text-center '>
+        <p className='items-center m-5 text-xl font-light tracking-tighter text-center '>
             Welcome to my portfolio website!
             My name is Maria and I&apos;m a 
             computer science student at CUNY Hunter College and a soon-to-be Software Engineer. 
