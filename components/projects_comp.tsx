@@ -25,7 +25,7 @@ export default function Projects({}: Props) {
             
             <div className='flex flex-col md:px-5 lg:flex-row'>
                
-                <div onClick={handleClick} className='pb-10 hover:cursor-pointer md:px-5'>
+                <a href='https://momostudios.co/' target="_blank" rel="noopener noreferrer" className='pb-10 md:px-5'>
                 <Proj 
                 title='Film Maker&apos;s Website'
                 dateStarted='February 2022'
@@ -40,7 +40,7 @@ export default function Projects({}: Props) {
                 <SiReact key={2} size={40} color='f89de8'/>,
                 ]}
                 />
-                </div>
+                </a>
 
                 <div className='md:px-5 '>
                 <Proj 
