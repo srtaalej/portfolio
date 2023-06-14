@@ -2,10 +2,15 @@ import React from 'react';
 import Proj from '../components/proj_card';
 
 import { SiNextdotjs, SiReact, SiMongodb, SiExpress, SiNodedotjs } from 'react-icons/si';
+import { useRouter } from 'next/router';
 
 type Props = {};
 
 export default function Projects({}: Props) {
+  const router = useRouter()
+  const handleClick = () => {
+    router.push('https://momostudios.co/')
+  }
   return (
     <div className="flex flex-col items-center justify-center w-screen h-full mb-40">
         <h1 className="text-center py-10 text-6xl lg:text-7xl font-extrabold
@@ -20,10 +25,10 @@ export default function Projects({}: Props) {
             
             <div className='flex flex-col md:px-5 lg:flex-row'>
                
-                <div className='pb-10 md:px-5'>
+                <div onClick={handleClick} className='pb-10 hover:cursor-pointer md:px-5'>
                 <Proj 
-                title='Portfolio Website'
-                dateStarted='December 2022'
+                title='Film Maker&apos;s Website'
+                dateStarted='February 2022'
                 points={[
                 'Modern, animated components styled in Tailwind CSS',
                 'Next.js for optimized Server Side rendering',

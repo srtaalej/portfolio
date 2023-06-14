@@ -42,16 +42,16 @@ export default function Navbar(props: Props) {
       <ul className='space-x-5 hidden md:flex uppercase
         text-sm font-lightbold text-transparent bg-clip-text 
         from-[#f570f5] to-[#f570f5] via-[#fb8463] bg-gradient-to-l'>
-        <Link href='/about'>
+        <Link href='/about' className='hover:text-[#f5bae9] ease-in duration-200'>
           About
         </Link>
-        <Link href='/skills' >
+        <Link href='/skills' className='hover:text-[#f5bae9] ease-in duration-200'>
           Skills
         </Link>
-        <Link href='/projects' >
+        <Link href='/projects' className='hover:text-[#f5bae9] ease-in duration-200'>
           Projects
         </Link>
-        <Link href='/contacts' >
+        <Link href='/contacts' className='hover:text-[#f5bae9] ease-in duration-200'>
           Contact
         </Link>
         </ul>
